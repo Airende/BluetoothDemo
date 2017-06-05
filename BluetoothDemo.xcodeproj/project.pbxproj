@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		9014C0B21EE4F94800952D6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0B11EE4F94800952D6E /* main.m */; };
 		9014C0B51EE4F94800952D6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0B41EE4F94800952D6E /* AppDelegate.m */; };
-		9014C0B81EE4F94800952D6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0B71EE4F94800952D6E /* ViewController.m */; };
 		9014C0BB1EE4F94800952D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9014C0B91EE4F94800952D6E /* Main.storyboard */; };
 		9014C0BD1EE4F94800952D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9014C0BC1EE4F94800952D6E /* Assets.xcassets */; };
 		9014C0C01EE4F94800952D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9014C0BE1EE4F94800952D6E /* LaunchScreen.storyboard */; };
 		9014C0CB1EE4F94800952D6E /* BluetoothDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0CA1EE4F94800952D6E /* BluetoothDemoTests.m */; };
 		9014C0D61EE4F94800952D6E /* BluetoothDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0D51EE4F94800952D6E /* BluetoothDemoUITests.m */; };
+		9014C0E51EE4FB6900952D6E /* RDBluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0E41EE4FB6900952D6E /* RDBluetoothViewController.m */; };
+		9014C0E81EE5018B00952D6E /* RDDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0E71EE5018B00952D6E /* RDDocumentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		9014C0B11EE4F94800952D6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9014C0B31EE4F94800952D6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9014C0B41EE4F94800952D6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9014C0B61EE4F94800952D6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9014C0B71EE4F94800952D6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9014C0BA1EE4F94800952D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9014C0BC1EE4F94800952D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9014C0BF1EE4F94800952D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,11 @@
 		9014C0D11EE4F94800952D6E /* BluetoothDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9014C0D51EE4F94800952D6E /* BluetoothDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothDemoUITests.m; sourceTree = "<group>"; };
 		9014C0D71EE4F94800952D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9014C0E31EE4FB6900952D6E /* RDBluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDBluetoothViewController.h; sourceTree = "<group>"; };
+		9014C0E41EE4FB6900952D6E /* RDBluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDBluetoothViewController.m; sourceTree = "<group>"; };
+		9014C0E61EE5018B00952D6E /* RDDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDocumentViewController.h; sourceTree = "<group>"; };
+		9014C0E71EE5018B00952D6E /* RDDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDocumentViewController.m; sourceTree = "<group>"; };
+		9014C0EB1EE5302900952D6E /* 说明.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "说明.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,8 @@
 			children = (
 				9014C0B31EE4F94800952D6E /* AppDelegate.h */,
 				9014C0B41EE4F94800952D6E /* AppDelegate.m */,
-				9014C0B61EE4F94800952D6E /* ViewController.h */,
-				9014C0B71EE4F94800952D6E /* ViewController.m */,
+				9014C0E91EE52EBD00952D6E /* 蓝牙Demo */,
+				9014C0EA1EE52ED300952D6E /* 文档 */,
 				9014C0B91EE4F94800952D6E /* Main.storyboard */,
 				9014C0BC1EE4F94800952D6E /* Assets.xcassets */,
 				9014C0BE1EE4F94800952D6E /* LaunchScreen.storyboard */,
@@ -138,6 +142,25 @@
 				9014C0D71EE4F94800952D6E /* Info.plist */,
 			);
 			path = BluetoothDemoUITests;
+			sourceTree = "<group>";
+		};
+		9014C0E91EE52EBD00952D6E /* 蓝牙Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9014C0E31EE4FB6900952D6E /* RDBluetoothViewController.h */,
+				9014C0E41EE4FB6900952D6E /* RDBluetoothViewController.m */,
+			);
+			name = "蓝牙Demo";
+			sourceTree = "<group>";
+		};
+		9014C0EA1EE52ED300952D6E /* 文档 */ = {
+			isa = PBXGroup;
+			children = (
+				9014C0E61EE5018B00952D6E /* RDDocumentViewController.h */,
+				9014C0E71EE5018B00952D6E /* RDDocumentViewController.m */,
+				9014C0EB1EE5302900952D6E /* 说明.h */,
+			);
+			name = "文档";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9014C0B81EE4F94800952D6E /* ViewController.m in Sources */,
 				9014C0B51EE4F94800952D6E /* AppDelegate.m in Sources */,
+				9014C0E81EE5018B00952D6E /* RDDocumentViewController.m in Sources */,
 				9014C0B21EE4F94800952D6E /* main.m in Sources */,
+				9014C0E51EE4FB6900952D6E /* RDBluetoothViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3YA54AB2B7;
 				INFOPLIST_FILE = BluetoothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ard.BluetoothDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3YA54AB2B7;
 				INFOPLIST_FILE = BluetoothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ard.BluetoothDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +542,7 @@
 				9014C0DC1EE4F94800952D6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9014C0DD1EE4F94800952D6E /* Build configuration list for PBXNativeTarget "BluetoothDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +551,7 @@
 				9014C0DF1EE4F94800952D6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9014C0E01EE4F94800952D6E /* Build configuration list for PBXNativeTarget "BluetoothDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +560,7 @@
 				9014C0E21EE4F94800952D6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
