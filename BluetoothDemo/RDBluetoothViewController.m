@@ -30,8 +30,6 @@
     [self setupData];
     [self setupView];
     
-    [self.cManager scanForPeripheralsWithServices:nil options:nil];
-    
 }
 
 - (void)setupData{
@@ -48,6 +46,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return _peripheralsArray.count;
+}
+- (IBAction)BeganSearchBluetooth:(UIButton *)sender {
+    
+    [self.cManager scanForPeripheralsWithServices:nil options:nil];
+
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
