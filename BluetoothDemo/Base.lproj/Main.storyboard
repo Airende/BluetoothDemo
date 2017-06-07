@@ -28,6 +28,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="s0W-mL-yz5"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="gU4-CJ-Xus" id="5hW-ro-aYv"/>
+                                    <outlet property="delegate" destination="gU4-CJ-Xus" id="0Et-oD-Hm3"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQD-3X-N6h">
                                 <rect key="frame" x="60.5" y="374" width="253" height="30"/>

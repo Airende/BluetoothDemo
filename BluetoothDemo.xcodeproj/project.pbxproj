@@ -16,6 +16,7 @@
 		9014C0D61EE4F94800952D6E /* BluetoothDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0D51EE4F94800952D6E /* BluetoothDemoUITests.m */; };
 		9014C0E51EE4FB6900952D6E /* RDBluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0E41EE4FB6900952D6E /* RDBluetoothViewController.m */; };
 		9014C0E81EE5018B00952D6E /* RDDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C0E71EE5018B00952D6E /* RDDocumentViewController.m */; };
+		9014C0EE1EE6777900952D6E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9014C0ED1EE6777900952D6E /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9014C0E61EE5018B00952D6E /* RDDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDocumentViewController.h; sourceTree = "<group>"; };
 		9014C0E71EE5018B00952D6E /* RDDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDocumentViewController.m; sourceTree = "<group>"; };
 		9014C0EB1EE5302900952D6E /* 说明.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "说明.h"; sourceTree = "<group>"; };
+		9014C0ED1EE6777900952D6E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9014C0EE1EE6777900952D6E /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +92,7 @@
 				9014C0C91EE4F94800952D6E /* BluetoothDemoTests */,
 				9014C0D41EE4F94800952D6E /* BluetoothDemoUITests */,
 				9014C0AE1EE4F94800952D6E /* Products */,
+				9014C0EC1EE6777900952D6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +165,14 @@
 				9014C0EB1EE5302900952D6E /* 说明.h */,
 			);
 			name = "文档";
+			sourceTree = "<group>";
+		};
+		9014C0EC1EE6777900952D6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9014C0ED1EE6777900952D6E /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
